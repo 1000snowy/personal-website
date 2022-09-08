@@ -21,6 +21,6 @@ import "./Container.vue";
 defineProps<{
   SVG: string;
   name: string;
-  background?: string;
+  background: string;
 }>();
 </script>

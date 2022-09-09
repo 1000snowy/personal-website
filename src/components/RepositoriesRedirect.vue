@@ -17,7 +17,7 @@
           />
         </div>
       </router-link>
-      <router-link disabled="'true'" to="blog" class="pointer-events-none">
+      <router-link event="" to="blog" class="pointer-events-none">
         <div
           class="flex flex-row items-center justify-center p-4 transition-colors hover:bg-white/10 rounded-lg"
         >

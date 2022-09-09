@@ -1,12 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Landing from "./views/Landing.vue";
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: "/",
-      component: Landing,
+      component: import("./views/Landing.vue"),
     },
     {
       path: "/contact",
@@ -16,5 +15,6 @@ export default createRouter({
       path: "/repos",
       component: () => import("./views/Repositories.vue"),
     },
+    { path: "/:pathMatch(.*)*", component: import("./views/404Page.vue") },
   ],
 });

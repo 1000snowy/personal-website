@@ -10,7 +10,7 @@
       "
       v-html="SVG"
     ></div>
-    <p class="text-neutral-500 ml-4" v-text="name"></p>
+    <p class="ml-4" v-text="name"></p>
   </div>
 </template>
 

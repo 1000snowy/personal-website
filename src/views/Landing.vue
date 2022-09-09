@@ -1,11 +1,12 @@
 <template>
   <Container />
   <Technologies />
-  <Route />
   <RepositoriesRedirect />
+  <Route />
 </template>
 
 <script setup lang="ts">
+// @ts-nocheck
 import Container from "../components/Container.vue";
 import Technologies from "../components/Technologies.vue";
 import Route from "../components/Route.vue";

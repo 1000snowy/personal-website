@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+import Landing from "./views/Landing.vue";
+
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: "/",
-      component: import("./views/Landing.vue"),
+      component: Landing,
     },
     {
       path: "/contact",

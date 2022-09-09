@@ -4,7 +4,7 @@
       Technologies I use
     </h2>
     <div
-      class="md:grid md:grid-cols-4 md:grid-rows-2 mt-4 gap-4 grid grid-rows-3 grid-cols-2"
+      class="md:grid xl:grid-cols-4 lg:grid-cols-3 md:grid-rows-2 mt-4 gap-4 grid grid-rows-3 grid-cols-2"
     >
       <a
         v-for="(technology, index) in technologies"

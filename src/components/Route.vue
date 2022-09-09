@@ -10,7 +10,7 @@
         rel="noopener noreferrer"
       >
         <div
-          class="flex flex-row items-center justify-center p-4 transition-colors hover:bg-white/10 rounded-lg"
+          class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
         >
           <p class="text-neutral-500 ml-8">LinkedIn</p>
           <img
@@ -28,7 +28,7 @@
         rel="noopener noreferrer"
       >
         <div
-          class="flex flex-row items-center justify-center p-4 transition-colors hover:bg-white/10 rounded-lg"
+          class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
         >
           <p class="text-neutral-500 ml-8">Github</p>
           <img
@@ -46,7 +46,7 @@
         rel="noopener noreferrer"
       >
         <div
-          class="flex flex-row items-center justify-center p-4 transition-colors hover:bg-white/10 rounded-lg"
+          class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
         >
           <p class="text-neutral-500 ml-8">Twitter</p>
           <img
@@ -63,7 +63,7 @@
         @click="copyUsernameToClipboard"
       >
         <div
-          class="flex flex-row items-center justify-center p-4 transition-colors hover:bg-white/10 rounded-lg"
+          class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
         >
           <p class="text-neutral-500 ml-8">Discord (copy username)</p>
           <img

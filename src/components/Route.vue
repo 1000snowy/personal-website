@@ -58,9 +58,7 @@
           />
         </div>
       </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
         class="cursor-pointer"
         @click="copyUsernameToClipboard"
       >
@@ -76,7 +74,7 @@
             class="ml-5"
           />
         </div>
-      </a>
+      </div>
     </div>
   </div>
 </template>

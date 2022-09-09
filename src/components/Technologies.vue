@@ -20,5 +20,11 @@ import { inject } from "vue";
 // @ts-ignore
 import TechnologyCard from "./TechnologyCard.vue";
 
-const technologies = inject("technologies");
+interface Technology {
+  SVG: string;
+  name: string;
+  background: string;
+}
+
+const technologies = inject("technologies") as Array<Technology>;
 </script>

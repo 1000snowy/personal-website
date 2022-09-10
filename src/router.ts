@@ -9,6 +9,7 @@ import ErrorPage from "./views/404Page.vue";
 export default createRouter({
   history: createWebHistory(),
   routes: [
+    { path: "/:pathMatch(.*)*", component: import("./views/404Page.vue") },
     {
       path: "/",
       component: Landing,
@@ -21,6 +22,9 @@ export default createRouter({
       path: "/repos",
       component: Repositories,
     },
+<<<<<<< HEAD
     { path: "/:pathMatch(.*)*", component: ErrorPage },
+=======
+>>>>>>> dccc5dca33284d444b50404e89fbd1816e42bce6
   ],
 });

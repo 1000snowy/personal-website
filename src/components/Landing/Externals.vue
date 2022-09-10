@@ -13,7 +13,7 @@
         >
           <p class="ml-8">LinkedIn</p>
           <img
-            src="../assets/external.svg"
+            src="../../assets/external.svg"
             alt="LinkedIn"
             width="24"
             height="24"
@@ -32,7 +32,7 @@
         >
           <p class="ml-8">Github</p>
           <img
-            src="../assets/external.svg"
+            src="../../assets/external.svg"
             alt="Github"
             width="24"
             height="24"
@@ -51,7 +51,7 @@
         >
           <p class="ml-8">Twitter</p>
           <img
-            src="../assets/external.svg"
+            src="../../assets/external.svg"
             alt="Twitter"
             width="24"
             height="24"
@@ -67,13 +67,6 @@
           class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
         >
           <p class="ml-8">Discord (copy username)</p>
-          <img
-            src="../assets/external.svg"
-            alt="Discord"
-            width="24"
-            height="24"
-            class="ml-5"
-          />
         </div>
       </div>
     </div>

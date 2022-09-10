@@ -30,6 +30,7 @@
         class="rounded-[4.5rem] w-36 h-36 md:hover:rounded-[1rem] duration-150 cursor-pointer"
         src="https://cdn.discordapp.com/attachments/990340026573398056/1017758203062255667/IMG_4546.AVIF"
         alt="Profile picture"
+        loading="lazy"
       />
       <div
         class="mobile-status md:hidden w-6 h-6 rounded-full bg-green-400 absolute bottom-2 right-2 border-4 border-black"

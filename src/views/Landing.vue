@@ -7,8 +7,8 @@
 
 <script setup lang="ts">
 // @ts-nocheck
-import Container from "../components/Container.vue";
-import Technologies from "../components/Technologies.vue";
-import Route from "../components/Route.vue";
-import RepositoriesRedirect from "../components/RepositoriesRedirect.vue";
+import Container from "../components/Landing/Container.vue";
+import Technologies from "../components/Landing/Technologies.vue";
+import Route from "../components/Landing/Externals.vue";
+import RepositoriesRedirect from "../components/Landing/WebsiteRedirect.vue";
 </script>

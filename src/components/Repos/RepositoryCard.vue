@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white/10 p-4 rounded-xl flex flex-col h-48">
+  <div class="bg-white/5 p-4 rounded-xl flex flex-col h-48">
     <div class="flex justify-between">
       <h1 v-text="name" class="text-neutral-300" />
       <div class="flex flex-row">

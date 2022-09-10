@@ -15,8 +15,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// @ts-ignore
+<script setup>
 import TechnologyCard from "./TechnologyCard.vue";
 
 const technologies = [

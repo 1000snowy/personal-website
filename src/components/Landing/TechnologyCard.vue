@@ -14,13 +14,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// NOTE: Ignore a Typescript error here
+<script setup>
 import "./Container.vue";
 
-defineProps<{
-  SVG: string;
-  name: string;
-  background: string;
-}>();
+defineProps(["name", "background", "SVG"]);
 </script>

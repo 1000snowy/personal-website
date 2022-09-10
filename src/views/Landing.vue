@@ -5,8 +5,7 @@
   <Route />
 </template>
 
-<script setup lang="ts">
-// @ts-nocheck
+<script setup>
 import Container from "../components/Landing/Container.vue";
 import Technologies from "../components/Landing/Technologies.vue";
 import Route from "../components/Landing/Externals.vue";

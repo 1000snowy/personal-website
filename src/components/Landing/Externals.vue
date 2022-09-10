@@ -80,12 +80,12 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref, watch } from "vue";
 
 const tooltip = ref(false);
-const timeout = ref<any>(null);
-const leaveAnimationTimeout = ref<any>(null);
+const timeout = ref(null);
+const leaveAnimationTimeout = ref(null);
 
 watch(tooltip, (newValue) => {
   if (newValue === false) return;

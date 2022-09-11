@@ -49,6 +49,7 @@ body {
   animation: tooltip 0.2s ease-in-out forwards;
   backdrop-filter: blur(5px);
   background: #00000020;
+  border-radius: 5px;
   z-index: 100;
 }
 

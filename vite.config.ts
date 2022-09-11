@@ -6,6 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
+      "@blog": "/src/components/blog",
       "@posts": "/public/posts",
     },
   },

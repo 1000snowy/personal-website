@@ -1,13 +1,6 @@
 <template>
   <main class="grow">
-    <Suspense>
-      <Repositories />
-      <template #fallback>
-        <div class="grid grow place-items-center">
-          <p>Loading...</p>
-        </div>
-      </template>
-    </Suspense>
+    <Repositories />
   </main>
 </template>
 

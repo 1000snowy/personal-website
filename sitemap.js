@@ -30,6 +30,6 @@ const links = [
 
 const stream = new SitemapStream({ hostname: "https://kaans.land" });
 
-const sitemap = streamToPromise(Readable.from(links).pipe(stream)).then(
-  (data) => writeFileSync("public/sitemap.xml", data.toString())
+streamToPromise(Readable.from(links).pipe(stream)).then((data) =>
+  writeFileSync("public/sitemap.xml", data.toString())
 );

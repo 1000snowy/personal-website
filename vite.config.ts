@@ -2,7 +2,11 @@ import { defineConfig } from "vite";
 import Vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  plugins: [Vue()],
+  plugins: [
+    Vue({
+      reactivityTransform: true,
+    }),
+  ],
   resolve: {
     alias: {
       "@": "/src",

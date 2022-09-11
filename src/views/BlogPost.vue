@@ -6,7 +6,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { useMarkdown } from "@/composables/useMarkdown.js";
 
@@ -16,7 +15,7 @@ import BlogTitle from "@blog/BlogTitle.vue";
 import BlogContent from "@blog/BlogContent.vue";
 
 const router = useRouter();
-const markdown = ref("");
+const markdown = $ref("");
 
 await fetch("/posts/" + router.currentRoute.value.params.id + ".md")
   .then((response) => response.text())
@@ -26,6 +25,6 @@ await fetch("/posts/" + router.currentRoute.value.params.id + ".md")
 
 const { data, html } = useMarkdown(markdown.value);
 
-const postData = ref(data);
+const postData = $ref(data);
 markdown.value = html;
 </script>

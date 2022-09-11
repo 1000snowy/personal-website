@@ -15,7 +15,5 @@
 </template>
 
 <script setup>
-import "./Container.vue";
-
 defineProps(["name", "background", "SVG"]);
 </script>

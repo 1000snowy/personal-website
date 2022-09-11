@@ -15,12 +15,6 @@
 import { useRouter } from "vue-router";
 const router = useRouter();
 
-(() => {
-  // Search for blog posts
-
-  console.log("run");
-})();
-
 function back() {
   router.back();
 }

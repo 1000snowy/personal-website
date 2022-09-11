@@ -1,5 +1,5 @@
 <template>
-  <main class="grid place-items-center error-page grow">
+  <main class="grid place-items-center error-page">
     <div class="grid place-items-center gap-2">
       <h1 class="font-semibold text-3xl text-center">
         Cannot find the page you are looking for

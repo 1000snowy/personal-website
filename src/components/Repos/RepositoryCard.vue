@@ -27,6 +27,4 @@ const colorScheme = {
 };
 
 const color = computed(() => colorScheme[props.writtenIn]);
-
-console.log(color);
 </script>

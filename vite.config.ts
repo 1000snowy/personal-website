@@ -12,6 +12,7 @@ export default defineConfig({
       "@": "/src",
       "@blog": "/src/components/Blog",
       "@posts": "/public/posts",
+      "@components": "/src/components",
     },
   },
 });

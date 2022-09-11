@@ -7,6 +7,7 @@
         rel="noreferrer noopener"
         target="_blank"
         class="smart-link"
+        accesskey="s"
         >Github</a
       >
     </p>

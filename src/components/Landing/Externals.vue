@@ -7,6 +7,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block mt-4 md:mt-0"
+        accesskey="l"
       >
         <div
           class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
@@ -26,6 +27,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block mt-4 md:mt-0"
+        accesskey="g"
       >
         <div
           class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"
@@ -45,6 +47,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block mt-4 md:mt-0"
+        accesskey="t"
       >
         <div
           class="flex flex-row items-center justify-center p-4 transition-colors bg-white/5 hover:bg-white/10 rounded-lg"

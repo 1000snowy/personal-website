@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16">
-    <h2 class="md:text-start text-center uppercase">External Links</h2>
+    <h2 class="md:text-start text-center uppercase text-neutral-300">External Links</h2>
     <div class="md:grid md:grid-cols-2 md:grid-rows-2 gap-4 mt-4">
       <a
         href="https://www.linkedin.com/in/kaan-karaman-541940218/"

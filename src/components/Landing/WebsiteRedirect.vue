@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16">
-    <h2 class="md:text-start text-center uppercase text-neutral-300">Have a tour</h2>
+    <h2 class="md:text-start text-center uppercase">Have a tour</h2>
     <div class="md:grid md:grid-cols-2 md:grid-rows-1 gap-4">
       <RouterLink to="/repos" class="block mt-4 md:mt-0">
         <div

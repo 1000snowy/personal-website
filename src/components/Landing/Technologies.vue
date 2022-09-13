@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16">
-    <h2 class="md:text-start text-center uppercase text-neutral-300">Technologies I use</h2>
+    <h2 class="md:text-start text-center uppercase">Technologies I use</h2>
     <div
       class="md:grid xl:grid-cols-4 lg:grid-cols-3 md:grid-rows-2 mt-4 gap-4 grid grid-rows-3 grid-cols-2"
     >

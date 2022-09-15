@@ -8,11 +8,11 @@ export default createRouter({
     { path: "/blog/:id", component: import("./views/BlogPost.vue") },
     {
       path: "/contact",
-      component: import("./views/Contact.vue") },
+      component: import("./views/Contact.vue"),
     },
     {
       path: "/",
-      component: import("./views/Landing.vue") },
+      component: import("./views/Landing.vue"),
       alias: "/home",
     },
     {

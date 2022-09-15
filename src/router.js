@@ -1,23 +1,30 @@
-import { createRouter, createWebHistory } from "vue-router"; 
+import { createRouter, createWebHistory } from "vue-router";
+
+import ErrorPage from "./views/404Page.vue";
+import BlogIndex from "./views/BlogIndex.vue";
+import BlogPost from "./views/BlogPost.vue";
+import Contact from "./views/Contact.vue";
+import Landing from "./views/Landing.vue";
+import Repositories from "./views/Repositories.vue";
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/:pathMatch(.*)*", component: import("./views/404Page.vue"), alias: "/404" },
-    { path: "/blog", component: import("./views/BlogIndex.vue") },
-    { path: "/blog/:id", component: import("./views/BlogPost.vue") },
+    { path: "/:pathMatch(.*)*", component: ErrorPage, alias: "/404" },
+    { path: "/blog", component: BlogIndex },
+    { path: "/blog/:id", component: BlogPost },
     {
       path: "/contact",
-      component: import("./views/Contact.vue"),
+      component: Contact,
     },
     {
       path: "/",
-      component: import("./views/Landing.vue"),
+      component: Landing,
       alias: "/home",
     },
     {
       path: "/repos",
-      component: import("./views/Repositories.vue") ,
+      component: Repositories,
     },
   ],
 });

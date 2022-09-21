@@ -12,7 +12,7 @@
       >
     </p>
     <p>
-      Created by <span class="text-neutral-300">kaan.#1337</span> with
+      Created by <span class="text-neutral-300">kaan.#6742</span> with
       <span>&#x1F49E;</span>
     </p>
   </footer>

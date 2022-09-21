@@ -106,6 +106,6 @@ watch(tooltip, (newValue) => {
 
 function copyUsernameToClipboard() {
   tooltip.value = true;
-  navigator.clipboard.writeText("kaan.#1337");
+  navigator.clipboard.writeText("kaan.#6742");
 }
 </script>

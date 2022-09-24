@@ -1,0 +1,10 @@
+---
+import "./Styles.astro";
+import Default from "../layouts/Default.astro";
+const { title, content } = Astro.props;
+---
+
+<Default>
+	<h1 class="blog--title">{title}</h1>
+	<p class="blog--content">{content}</p>
+</Default>

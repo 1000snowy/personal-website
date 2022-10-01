@@ -1,0 +1,19 @@
+---
+import { Image } from "@astrojs/image/components";
+---
+
+<div class="flex flex-row">
+  <p class="text-center">
+    Hey, I'm a 17 year old developer from Turkey, I'm currently focused on my
+    exams but I'm still trying to learn new things and improve my skills. I'm a
+    backend developer mainly experienced in Node.js
+  </p>
+  <Image
+    alt="My profile picture"
+    src={import("../../assets/profile_picture.png")}
+    format="jpeg"
+    width="120"
+    height="120"
+    class="rounded-full"
+  />
+</div>

@@ -1,0 +1,35 @@
+---
+export interface Props {
+  href: string;
+  content: string;
+  newTab?: boolean;
+}
+
+const { href, content, newTab } = Astro.props;
+---
+
+<a href={href} target={newTab ? "_blank" : "_self"}>{content}</a>
+
+<style>
+  a {
+    position: relative;
+    cursor: pointer;
+  }
+
+  a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -0.1rem;
+    right: -0.1rem;
+    height: 30%;
+    background: rgba(79, 192, 141, 0.4);
+    z-index: 0;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+
+  a:hover::before {
+    height: 100%;
+  }
+</style>
